@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甜茶 - 下载</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #FDF8F3 0%, #F5EDD6 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 24px;
+            border-radius: 28px;
+            background: #fff;
+            box-shadow: 0 8px 32px rgba(139, 90, 43, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .logo img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+        }
+        h1 {
+            font-size: 32px;
+            color: #8B5A2B;
+            margin-bottom: 8px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        .subtitle {
+            font-size: 15px;
+            color: #B8956A;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #C4956A 0%, #B8956A 100%);
+            color: #fff;
+            text-decoration: none;
+            padding: 16px 48px;
+            border-radius: 50px;
+            font-size: 17px;
+            font-weight: 500;
+            box-shadow: 0 6px 20px rgba(196, 149, 106, 0.35);
+            transition: all 0.3s ease;
+            margin-bottom: 16px;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 28px rgba(196, 149, 106, 0.45);
+        }
+        .version {
+            font-size: 13px;
+            color: #C4A882;
+            margin-bottom: 40px;
+        }
+        .features {
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 20px;
+            padding: 24px;
+            text-align: left;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(196, 149, 106, 0.15);
+        }
+        .features h3 {
+            font-size: 15px;
+            color: #8B5A2B;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #7A6B5D;
+        }
+        .feature-item:last-child { margin-bottom: 0; }
+        .feature-icon {
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, #F5EDD6, #FDF8F3);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-size: 14px;
+        }
+        .footer {
+            margin-top: 32px;
+            font-size: 12px;
+            color: #C4A882;
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 26px; }
+            .logo { width: 100px; height: 100px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://raw.githubusercontent.com/sweetteaclub/sweetteaclub.github.io/main/icon.png" alt="甜茶">
+        </div>
+        <h1>甜茶</h1>
+        <p class="subtitle">茶饮社交 · Lolita穿搭 · 虚拟庄园<br>属于茶话会的浪漫社区</p>
+
+        <a href="https://github.com/sweetteaclub/sweetteaclub.github.io/releases/download/v0.0.1/app-debug.apk" class="download-btn" download>立即下载 APK</a>
+        <p class="version">Android 版 | v0.0.1 | 约 27 MB</p>
+
+        <div class="features">
+            <h3>功能亮点</h3>
+            <div class="feature-item">
+                <div class="feature-icon">&#127861;</div>
+                <span>分享茶饮心得，发现新口味</span>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">&#128087;</div>
+                <span>Lolita穿搭分享，打造个性衣橱</span>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">&#127963;</div>
+                <span>虚拟庄园茶话会，沉浸式社交</span>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">&#128172;</div>
+                <span>实时聊天，结识志同道合的朋友</span>
+            </div>
+        </div>
+
+        <p class="footer">下载后请在设置中允许安装未知来源应用</p>
+    </div>
+</body>
+</html>
